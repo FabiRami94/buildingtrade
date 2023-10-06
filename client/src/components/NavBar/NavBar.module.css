@@ -1,0 +1,22 @@
+
+.linksStyles {   
+    color: rgb(131, 130, 130);
+    margin: 20px;
+    text-decoration: none;
+    font-size: large;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.linksStyles:hover {
+    color: red;
+    font-weight: 600;
+}
+
+.divGeneral{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
