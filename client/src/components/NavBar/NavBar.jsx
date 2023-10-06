@@ -30,6 +30,18 @@ const NavBar = () => {
                         offset={-100}
                         duration={500}>Servicios</Link>
                     <Link 
+                        className={styles.linksStyles}
+                        to="proyectos"
+                        smooth= {true}
+                        offset={-100}
+                        duration={500}>Proyectos</Link>
+                    <Link 
+                        className={styles.linksStyles}
+                        to="compraapt"
+                        smooth= {true}
+                        offset={-100}
+                        duration={500}>Compra Apartamento</Link>
+                    <Link 
                         to="contacto"
                         smooth= {true}
                         offset={-100}

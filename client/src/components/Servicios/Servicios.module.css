@@ -1,0 +1,12 @@
+
+.servicio{
+    display: flex; 
+    flex-direction: column;
+    text-align: center;
+    width: 250px;
+    margin: 20px;
+    background-color: #80858d;
+    border-radius: 30px;
+    padding: 10px;
+    border: 1.5px solid #3b3e40;
+}
