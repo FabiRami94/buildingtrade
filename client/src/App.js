@@ -3,6 +3,8 @@ import './App.css';
 import Home from './components/Home/Home';
 import NavBar from './components/NavBar/NavBar';
 import Contact from './components/Contact/Contact';
+import SobreNosotros from './components/SobreNosotros/SobreNosotros';
+import Servicios from './components/Servicios/Servicios';
 
 function App() {
   return (
@@ -13,6 +15,12 @@ function App() {
       <main>
         <div id='inicio'>
           <Home></Home>
+        </div>
+        <div id='sobrenosotros'>
+          <SobreNosotros></SobreNosotros>
+        </div>
+        <div id='servicios'>
+          <Servicios></Servicios>
         </div>
         <div id='contacto'>
           <Contact></Contact>

@@ -19,10 +19,21 @@ const NavBar = () => {
                         duration={500}>Inicio</Link>
                     <Link 
                         className={styles.linksStyles}
+                        to="sobrenosotros"
+                        smooth= {true}
+                        offset={-100}
+                        duration={500}>Sobre Nosotros</Link>
+                    <Link 
+                        className={styles.linksStyles}
+                        to="servicios"
+                        smooth= {true}
+                        offset={-100}
+                        duration={500}>Servicios</Link>
+                    <Link 
                         to="contacto"
                         smooth= {true}
                         offset={-100}
-                        duration={500}>Contáctanos</Link>
+                        duration={500}><button className={styles.button}> Contáctanos</button></Link>
                 </div>
             </div>
             <div style={{height: '2px', backgroundColor: 'black'}}></div>
