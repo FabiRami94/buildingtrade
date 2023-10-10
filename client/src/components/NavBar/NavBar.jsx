@@ -15,19 +15,19 @@ const NavBar = () => {
                         className={styles.linksStyles}
                         to="inicio"
                         smooth= {true}
-                        offset={-100}
+                        offset={-180}
                         duration={500}>Inicio</Link>
                     <Link 
                         className={styles.linksStyles}
                         to="sobrenosotros"
                         smooth= {true}
-                        offset={-100}
+                        offset={-150}
                         duration={500}>Sobre Nosotros</Link>
                     <Link 
                         className={styles.linksStyles}
                         to="servicios"
                         smooth= {true}
-                        offset={-100}
+                        offset={-140}
                         duration={500}>Servicios</Link>
                     <Link 
                         className={styles.linksStyles}

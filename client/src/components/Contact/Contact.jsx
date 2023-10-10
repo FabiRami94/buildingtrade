@@ -1,12 +1,28 @@
 
-import React from "react";
+import React, { useState } from "react";
 import {GrInstagram} from "react-icons/gr";
 import {IoLocation} from "react-icons/io5";
 import {HiOutlinePhone} from "react-icons/hi";
 import {AiOutlineMail} from "react-icons/ai";
-import styles from "./Contact.module.css"
+import styles from "./Contact.module.css";
 
 const Contact = () => {
+
+    const [newInput, setNewIInput] = useState(
+        {
+            nombre: "",
+            correo: "",
+            mensaje: "",
+        }
+    );
+
+    const onChangeHandler = (event) => {
+
+        setNewIInput({...newInput, [event.target.name] : event.target.value})
+        console.log(event.target.value)
+    }
+
+
     return(
         <div style={{backgroundColor: 'black', height: '360px', textAlign: 'center  '}}>
             <h2 className={styles.title}>CONTÁCTANOS</h2>
@@ -14,15 +30,17 @@ const Contact = () => {
                 <div style={{display: 'flex', flexDirection: 'column'}}>
                     <div>
                         <label className={styles.letter}>Nombre:</label>
-                        <input className={styles.input} placeholder="Escribe un nombre..."></input>
+                        <input onChange={onChangeHandler} name="nombre" className={styles.input} placeholder="Escribe un nombre..."></input>
                     </div>
                     <div>
                         <label className={styles.letter}>Correo:</label>
-                        <input style={{marginLeft: '23px'}} className={styles.input} placeholder="Escribe un correo..."></input>
+                        <input onChange={onChangeHandler} name="correo" style={{marginLeft: '23px'}} className={styles.input} placeholder="Escribe un correo..."></input>
                     </div>
                     <div>
                         <label className={styles.letter}>Mensaje:</label>
                         <textarea 
+                            onChange={onChangeHandler}
+                            name="mensaje"
                             style={{outlineColor: '#a61a16', marginBottom: '-2px'}} 
                             className={styles.input} 
                             rows="5" cols="60" 

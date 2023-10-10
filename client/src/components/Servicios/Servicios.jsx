@@ -18,7 +18,7 @@ const Servicios = () => {
                     <span>Cambios y modenización de espacios en el inmueble, con actualización en
                     tendencias.</span>
                     <div>
-                        <BsFillHouseAddFill color="#a61a16" size={40} style={{marginTop: '10px'}}/>
+                        <BsFillHouseAddFill color="#1d1d1b" size={40} style={{marginTop: '10px'}}/>
                     </div>
                 </div>
                 <div className={styles.servicio}>
@@ -27,7 +27,7 @@ const Servicios = () => {
                     <span>Terminaciones prolijas de los proyectos en obra gris con materiales de alta
                     calidad.</span>
                     <div>
-                        <MdDesignServices color="#a61a16" size={40} style={{marginTop: '10px'}}/>
+                        <MdDesignServices color="#1d1d1b" size={40} style={{marginTop: '10px'}}/>
                     </div>
                 </div>
                 <div className={styles.servicio}>
@@ -36,7 +36,7 @@ const Servicios = () => {
                     <span>Realización de proyectos desde cero, desde sus cimientos hasta el 
                         levantamiento de la estructura y la realización de sus acabados.</span>
                     <div>
-                        <GiBrickWall color="#a61a16" size={40} style={{marginTop: '10px'}}/>
+                        <GiBrickWall color="#1d1d1b" size={40} style={{marginTop: '10px'}}/>
                     </div>
                 </div>
                 <div className={styles.servicio}>
@@ -45,7 +45,7 @@ const Servicios = () => {
                     <span>Creación de todo tipo de mobiliario en madera RH, material idóneo resistente a
                         humedad y comején, con excelentes acabados.</span>
                     <div>
-                        <MdCarpenter color="#a61a16" size={45} style={{marginTop: '10px'}}/>
+                        <MdCarpenter color="#1d1d1b" size={45} style={{marginTop: '10px'}}/>
                     </div>
                 </div>
             </div>

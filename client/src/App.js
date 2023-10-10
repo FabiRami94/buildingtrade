@@ -11,7 +11,7 @@ import Proyectos from './components/Proyectos/Proyectos';
 function App() {
   return (
     <div>
-      <header style={{position: 'sticky', top: '0'}}>
+      <header style={{position: 'sticky', top: '0', zIndex: '2'}}>
         <NavBar></NavBar>
       </header>
       <main>

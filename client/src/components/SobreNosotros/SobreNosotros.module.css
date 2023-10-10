@@ -1,0 +1,62 @@
+
+.flippableCardContainer{
+    height: 250px;
+    width: 400px;
+    margin: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.8);
+
+    position: relative;
+    perspective: 1000px;
+    transform-style: preserve-3d;
+
+    transition: transform 1000ms;
+    z-index: 1;
+}
+
+.flippableCardContainer:hover{
+    transform: rotateY(180deg);
+    z-index: 1;
+}
+
+.frontCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+    background-color: #3b3e40;
+
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.backCard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+    background-color: rgb(24, 146, 228);
+
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+}
+
+.letter{
+    margin: 20px;
+    text-align: center;
+    color: white;
+}
+
+.image{
+    height: 120px; 
+    border-radius: 30px;
+    border: 2px solid rgb(24, 146, 228);;
+}
