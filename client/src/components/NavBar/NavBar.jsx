@@ -40,7 +40,7 @@ const NavBar = () => {
                         to="compraapt"
                         smooth= {true}
                         offset={-100}
-                        duration={500}>Compra Apartamento</Link>
+                        duration={500}>Inmuebles En Venta</Link>
                     <Link 
                         to="contacto"
                         smooth= {true}

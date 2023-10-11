@@ -44,7 +44,7 @@ const SobreNosotros = () => {
                 <div style={{display: "flex", flexDirection: 'row', justifyContent: 'center'}}>
                     <div className={styles.flippableCardContainer}>
                        <div className={styles.frontCard}>
-                            <img alt="misión" src="https://i.ibb.co/hRChzVS/Mision.png" className={styles.image}/>
+                            
                             <h2 style={{color: 'white'}}>MISIÓN</h2>
                        </div>
                        <div className={styles.backCard}>
@@ -58,7 +58,7 @@ const SobreNosotros = () => {
                     </div>
                     <div className={styles.flippableCardContainer}>
                         <div className={styles.frontCard}>
-                            <img alt="visión" src="https://i.ibb.co/BKHCKc2/vision.png" className={styles.image}/>
+                            
                             <h2 style={{color: 'white'}}>VISIÓN</h2>
                         </div>
                        <div className={styles.backCard}>

@@ -50,7 +50,7 @@ const Contact = () => {
                 <div style={{display: 'flex', flexDirection: 'column'}}>
                     <h3 className={styles.subtitles} style={{marginTop: '0px'}}>Teléfono</h3>
                     <span className={styles.letter}>
-                        <HiOutlinePhone  size={20} style={{color: '#a61a16'}}/>  +57 301 544 9206</span>
+                        <HiOutlinePhone  size={20} style={{color: '#a61a16'}}/>  +57 302 772 2941</span>
                     <h3 className={styles.subtitles}>E-mail</h3>
                     <span className={styles.letter}>
                         <AiOutlineMail  size={20} style={{color: '#a61a16'}}/>  bt.buildingtrade@gmail.com</span>
@@ -59,6 +59,7 @@ const Contact = () => {
                         <IoLocation size={20} style={{color: '#a61a16'}}/>  Barranquilla, Colombia</span>
                 </div>
             </div>
+            <button>Enviar</button>
             <a href="https://www.instagram.com/buildingtrade.co/" target="_black">
                 <GrInstagram style = {{padding: '20px'}} className={styles.icon} size={40}/>
             </a>

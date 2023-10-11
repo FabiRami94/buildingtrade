@@ -42,7 +42,7 @@
     height: 100%;
     width: 100%;
     border-radius: 15px;
-    background-color: rgb(24, 146, 228);
+    background-color: #a61a16;
 
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
@@ -58,5 +58,5 @@
 .image{
     height: 120px; 
     border-radius: 30px;
-    border: 2px solid rgb(24, 146, 228);;
+    border: 2px solid #a61a16;
 }
