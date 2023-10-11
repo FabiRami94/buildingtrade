@@ -44,8 +44,8 @@ const SobreNosotros = () => {
                 <div style={{display: "flex", flexDirection: 'row', justifyContent: 'center'}}>
                     <div className={styles.flippableCardContainer}>
                        <div className={styles.frontCard}>
-                            
-                            <h2 style={{color: 'white'}}>MISIÓN</h2>
+                            <img className={styles.image} src="https://i.ibb.co/SNRxc6b/mision.jpg" alt="misión"/>
+                            <h2 className={styles.title}>MISIÓN</h2>
                        </div>
                        <div className={styles.backCard}>
                             <span className={styles.letter}> Tenemos un compromiso con nuestros colaboradores y clientes, somos el
@@ -58,8 +58,8 @@ const SobreNosotros = () => {
                     </div>
                     <div className={styles.flippableCardContainer}>
                         <div className={styles.frontCard}>
-                            
-                            <h2 style={{color: 'white'}}>VISIÓN</h2>
+                            <img className={styles.image} src="https://i.ibb.co/pKp2QzB/vision.jpg" alt="visión"/>
+                            <h2 className={styles.title}>VISIÓN</h2>
                         </div>
                        <div className={styles.backCard}>
                             <span className={styles.letter}> Posicionarnos como líderes en el sector de la construcción y ser 

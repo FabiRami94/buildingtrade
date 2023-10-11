@@ -1,18 +1,18 @@
 
 export const data = [
     {
-      id: 1, imgUrl: "src/assets/images/angular.jpeg"
+      id: 1, imgUrl: "https://i.ibb.co/SNRxc6b/mision.jpg"
     },
     {
-      id: 2, imgUrl: "src/assets/images/redux_angular.jpg"
+      id: 2, imgUrl: "https://i.ibb.co/pKp2QzB/vision.jpg"
     },
     {
-      id: 3, imgUrl: "src/assets/images/php-login.jpeg"
+      id: 3, imgUrl: "https://i.ibb.co/SNRxc6b/mision.jpg"
     },
     {
-      id: 4, imgUrl: "src/assets/images/jquery.jpeg"
+      id: 4, imgUrl: "https://i.ibb.co/pKp2QzB/vision.jpg"
     },
     {
-      id: 5, imgUrl: "src/assets/images/node-chat.jpeg"
+      id: 5, imgUrl: "https://i.ibb.co/SNRxc6b/mision.jpg"
     }
   ];

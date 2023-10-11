@@ -55,8 +55,16 @@
     color: white;
 }
 
+.title{
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    position: absolute;
+}
+
 .image{
-    height: 120px; 
-    border-radius: 30px;
-    border: 2px solid #a61a16;
+    height: 100%; 
+    width: 100%;
+    border-radius: 15px; 
+    filter: opacity(0.4);
 }
