@@ -31,20 +31,26 @@ const Servicios = () => {
                     tendencias.</span>
                 </div>
                 <div className={styles.servicio}>
-                    <div style={{display: 'flex', flexDirection: 'column', alignContent: 'center'}}>
-                        <div style={{display: 'flex', flexDirection: 'column', position: 'relative', alignContent: 'center'}}>
+                    <div style={{
+                        display: 'flex', 
+                        flexDirection: 'column', 
+                        alignItems: 'center'}}>
+                        <div style={{
+                            display: 'flex', 
+                            flexDirection: 'column', 
+                            position: 'relative'}}>
                             <img 
                                 className={styles.imagenesAcabados} 
                                 src="https://i.ibb.co/zhbDWNx/Acabados-antes.jpg" 
                                 alt="Acabados 1"></img>
-                            <span className={styles.textoAntes2}>Antes</span>
+                            <span className={styles.textoMobible}>Antes</span>
                         </div>
                         <div style={{display: 'flex', flexDirection: 'column', position: 'relative'}}>
                             <img 
                                 className={styles.imagenesAcabados} 
                                 src="https://i.ibb.co/v4TXXZc/Acabados-despues.jpg" 
                                 alt="Acabados 1.2"></img>
-                            <span className={styles.textoAntes2}>Después</span>
+                            <span className={styles.textoMobible} style={{transform: 'translate(110%, 40%)'}}>Después</span>
                         </div>
                     </div>
                     <h3 style={{margin: '10px 0px 10px 0px'}}>Acabados</h3>

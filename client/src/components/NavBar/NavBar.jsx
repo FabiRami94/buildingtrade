@@ -8,7 +8,10 @@ const NavBar = () => {
         <div>
             <div className={styles.divGeneral}>
                 <div>
-                    <img style={{margin: '20px', height: '80px'}} alt={'Logo Empresa'} src="https://i.ibb.co/ph0TnLj/Recurso-3.png"/>
+                    <img 
+                        style={{margin: '20px', height: '80px'}} 
+                        alt={'Logo Empresa'} 
+                        src="https://i.ibb.co/ph0TnLj/Recurso-3.png"/>
                 </div>
                 <div style={{alignContent: 'center'}}>
                     <Link 
@@ -33,7 +36,7 @@ const NavBar = () => {
                         className={styles.linksStyles}
                         to="proyectos"
                         smooth= {true}
-                        offset={-100}
+                        offset={-140}
                         duration={500}>Proyectos</Link>
                     <Link 
                         className={styles.linksStyles}
