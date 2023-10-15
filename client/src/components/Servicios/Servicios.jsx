@@ -26,8 +26,8 @@ const Servicios = () => {
                             <span className={styles.textoAntes}>Después</span>
                         </div>
                     </div>
-                    <h3 style={{margin: '10px 0px 10px 0px'}}>Remodelación</h3>
-                    <span>Cambios y modenización de espacios en el inmueble, con actualización en
+                    <h3 style={{margin: '10px 0px 10px 0px', color: 'white'}}>Remodelación</h3>
+                    <span style={{ color: 'white'}}>Cambios y modenización de espacios en el inmueble, con actualización en
                     tendencias.</span>
                 </div>
                 <div className={styles.servicio}>
@@ -53,8 +53,8 @@ const Servicios = () => {
                             <span className={styles.textoMobible} style={{transform: 'translate(110%, 40%)'}}>Después</span>
                         </div>
                     </div>
-                    <h3 style={{margin: '10px 0px 10px 0px'}}>Acabados</h3>
-                    <span>Terminaciones prolijas de los proyectos en obra gris con materiales de alta
+                    <h3 style={{margin: '10px 0px 10px 0px', color: 'white'}}>Acabados</h3>
+                    <span style={{ color: 'white'}}>Terminaciones prolijas de los proyectos en obra gris con materiales de alta
                     calidad.</span>
                 </div>
                 <div className={styles.servicio}>
@@ -63,8 +63,8 @@ const Servicios = () => {
                             className={styles.imagenConstruccion} 
                             src="https://i.ibb.co/p2Jb9L3/Construccion-y-mamposteria.jpg" 
                             alt="Servicio 3"></img>
-                        <h3 style={{margin: '10px 0px 10px 0px'}}>Construcción y mampostería</h3>
-                        <span>Realización de proyectos desde cero, desde sus cimientos hasta el 
+                        <h3 style={{margin: '10px 0px 10px 0px', color: 'white'}}>Construcción y mampostería</h3>
+                        <span style={{color: 'white'}}>Realización de proyectos desde cero, desde sus cimientos hasta el 
                             levantamiento de la estructura y la realización de sus acabados.</span>
                     </div>
                 </div>
@@ -74,8 +74,8 @@ const Servicios = () => {
                             className={styles.imagenCarpinteria} 
                             src="https://i.ibb.co/jWkBjp8/Carpinteria.jpg" 
                             alt="Servicio 4"></img>
-                        <h3 style={{margin: '10px 0px 10px 0px'}}>Carpintería</h3>
-                        <span>Creación de todo tipo de mobiliario en madera RH, material idóneo 
+                        <h3 style={{margin: '10px 0px 10px 0px', color: 'white'}}>Carpintería</h3>
+                        <span style={{ color: 'white'}}>Creación de todo tipo de mobiliario en madera RH, material idóneo 
                             resistente a humedad y comején, con excelentes acabados.</span>
                     </div>
                 </div>

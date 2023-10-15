@@ -24,7 +24,7 @@ const Contact = () => {
 
 
     return(
-        <div style={{backgroundColor: 'black', height: '360px', textAlign: 'center  '}}>
+        <div style={{backgroundColor: '#1d1d1b', height: '360px', textAlign: 'center  '}}>
             <h2 className={styles.title}>CONTÁCTANOS</h2>
             <div style={{display: 'flex', flexDirection: 'row', justifyContent: 'space-evenly'}}>
                 <div style={{display: 'flex', flexDirection: 'column'}}>

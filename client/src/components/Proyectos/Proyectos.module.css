@@ -1,89 +1,90 @@
 
 
+.principalContainer{
+  display: flex;
+  flex-direction: row;
+  height: 500px;
+  width: 800px;
+  /* background-color: rgba(100, 202, 233, 0.459); */
+  margin: 0px auto;
+}
 
-
-
-
-
-
-
-
-/* 
-.mainContainer {
+.secondaryContainer{
+  height: 380px;
   width: 600px;
-  height: 400px;
-  margin: 20px auto;
-}
-
-.sliderContainer {
-  position: relative;
-  height: 100%
-}
-
-.containerImages {
-  width: 100%;
-  height: 100%;
-  border-radius: 20px;
-  border: 1px solid #eee;
+  /* background-color: rgba(100, 233, 100, 0.459); */
+  margin: 0px auto;
+  border-radius: 30px;
   overflow: hidden;
 }
 
+.carruseles{
+  width: 500%;
+  height: 100%;
+  display: flex;   /* Lo pone horizontales */
+  transform: translateX(0%); /* Cada 20% semueve */
+  transition: 2s;
+}
 
-.leftArrow {
-  position: absolute;
-  top: 50%;
-  transform: translate(0, -50%);
-  left: 32px;
-  font-size: 50px;
-  font-weight: 700;
-  color: black;
-  z-index: 1;
+.sliderSection{
+ width: calc(100% / 5);
+ height: 100%;
+}
+
+.image{
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+  box-shadow: 0px -5px 5px 1px rgba(0, 0, 0, 0.6);
+  object-fit: cover;
+}
+
+.flechaizquierda1{
+  display: flex; 
+  position: relative; 
+  font-size: 200px;
   cursor: pointer;
+  color: #1d1d1b;
+  transform: translate(0, 20%);
+  margin-left: 40px;
+  user-select: none;
 }
 
-.rightArrow {
-  position: absolute;
-  top: 50%;
-  transform: translate(0, -50%);
-  right: 32px;
-  font-size: 50px;
-  font-weight: 700;
-  color: black;
-  z-index: 1;
+.flechaizquierda1:hover,
+.flechaderecha1:hover,
+.flechaizquierda2:hover,
+.flechaderecha2:hover
+{
+  color: #a61a16;
+}
+
+.flechaderecha1{
+  display: flex; 
+  position: relative; 
+  font-size: 200px;
   cursor: pointer;
+  color: #1d1d1b;
+  transform: translate(0, 20%);
+  margin-right: 40px;
+  user-select: none;
 }
 
-
-.divUl {
-  list-style: none;
-  white-space: nowrap;
-}
-
-.divLi {
-  display: inline;
-  list-style: none;
-  white-space: nowrap;
-}
-
-.image {
-  margin-top: -16px;
-}
-
-.dotsContainer {
-  display: flex;
-  justify-content: center;
-}
-
-.dotContainerItem {
-  margin: 8px 3px;
+.flechaizquierda2{
+  display: flex; 
+  position: relative; 
+  font-size: 100px;
   cursor: pointer;
-  font-size: 12px;
-  text-align: center;
+  color: #1d1d1b;
+  transform: translate(0, 20%);
+  user-select: none;
 }
 
-.active {
-  background: #a61a16;
-  width: 15px;
-  height: 15px;
-  border-radius: 50%;
-}  */
+.flechaderecha2{
+  display: flex; 
+  position: relative; 
+  font-size: 100px;
+  cursor: pointer;
+  color: #1d1d1b;
+  transform: translate(0, 20%);
+  user-select: none;
+}

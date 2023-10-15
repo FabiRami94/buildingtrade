@@ -42,7 +42,7 @@ const NavBar = () => {
                         className={styles.linksStyles}
                         to="compraapt"
                         smooth= {true}
-                        offset={-100}
+                        offset={-140}
                         duration={500}>Inmuebles En Venta</Link>
                     <Link 
                         to="contacto"
