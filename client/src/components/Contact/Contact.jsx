@@ -60,7 +60,7 @@ const Contact = () => {
                 </div>
             </div>
             <button>Enviar</button>
-            <a href="https://www.instagram.com/buildingtrade.co/" target="_black">
+            <a href="https://www.instagram.com/buildingtrade.co/" target="__blank">
                 <GrInstagram style = {{padding: '20px'}} className={styles.icon} size={40}/>
             </a>
         </div>

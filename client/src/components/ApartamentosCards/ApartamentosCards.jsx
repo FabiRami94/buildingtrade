@@ -14,7 +14,7 @@ const ApartamentosCards = () => {
                     imgUrl={apto.imgUrl} 
                     localizacion={apto.localizacion}
                     precio={apto.precio}
-                    descripcion={apto.descripcion}
+                    descripcionBasica={apto.descripcionBasica}
                     datos={apto.datos}
                 />
             ))}

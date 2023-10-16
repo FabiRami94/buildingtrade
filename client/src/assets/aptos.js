@@ -4,8 +4,11 @@ export const aptos = [
         id: 1, 
         imgUrl: "https://i.ibb.co/SNRxc6b/mision.jpg",
         localizacion: "Barranquilla",
+        dirreccion: "Calle siempre viva 123",
+        imagenes: ["img1", "img2", "img3"],
         precio: '300.000.000',
-        descripcion: 'Apto bonio en el norte de Barranquilla',
+        descripcionBasica: 'Apto bonio en el norte de Barranquilla',
+        descripcionExtensa: 'Apto bonio en el norte de Barranquilla, donde puedes sentarte en familia..',
         datos: '70m2 . 2 Habitaciones . 1 baño'
     },
     {
