@@ -14,8 +14,6 @@ const transporter = nodemailer.createTransport({ // este es quien envia el corre
       // TODO: replace `user` and `pass` values from <https://forwardemail.net>
       user: EMAILSEND,
       pass: PASS
-    //   user: 'fabioerv.1994@gmail.com',
-    //   pass: 'ysni oamo hdim cgqf'
     }
   });
 
