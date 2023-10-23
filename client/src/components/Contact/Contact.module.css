@@ -32,4 +32,26 @@
 
 input:focus {
     outline-color: #a61a16;
-  }
+}
+
+.sendButton{
+    margin-top: 20px;
+    padding: 5px;
+    background-color: #3b3e40;
+    color: #f2f2f2;
+    width: 100px;
+    font-size: large;
+    font-weight: 500;
+    border-radius: 10px;
+}
+
+.sendButton:not(:disabled):hover{
+    background-color: #a61a16;
+}
+
+.errorsLetter{
+    font-size: 10px;
+    margin: 0px;
+    color: #f2f2f2;
+    text-align: right;
+}
