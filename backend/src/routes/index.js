@@ -41,7 +41,7 @@ router.delete('/deleteuser/:name', deteleUserHandler);
 //     res.render("Home");
 //   });
 
-router.post("/envioDeEmail", upload.single("fileAdjunto"), (req, res) => {
+router.post("/emailsending", upload.single("fileAdjunto"), (req, res) => {
 
     try {
         const { nombre, correo, mensaje } = req.body;
@@ -75,7 +75,7 @@ router.post("/envioDeEmail", upload.single("fileAdjunto"), (req, res) => {
           if (error) {
             throw new Error("Error al enviar el correo:", error)
           } else {
-            console.log("Correo enviado:", info.response);
+            res.status(200).json({ info: info.response });
           }
         }); 
         // res.render("Home");       

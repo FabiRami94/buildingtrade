@@ -6,6 +6,7 @@ import {HiOutlinePhone} from "react-icons/hi";
 import {AiOutlineMail} from "react-icons/ai";
 import styles from "./Contact.module.css";
 import validation from "../../assets/validation.js";
+import axios from "axios";
 
 const Contact = () => {
 
@@ -47,27 +48,57 @@ const Contact = () => {
         return isDisable;
     }
 
+    const submitHandler = async (event) => {
+        event.preventDefault();    
+        try {    
+            await axios.post('http://localhost:3001/buildingtrade/emailsending', newInput).then(res => alert('Mensaje enviado con éxito'));
+
+            setNewIInput({
+                nombre: "",
+                correo: "",
+                mensaje: "",
+            });
+            setErrors({
+                nombre: "Campo obligatorio*",
+                correo: "Campo obligatorio*",
+                mensaje: "Campo obligatorio*",
+            });
+        } catch (error) {
+            window.alert({error: error.message});
+            window.location.reload();
+        }
+    }
+
 
     return(
         <div style={{backgroundColor: '#1d1d1b', height: '410px', textAlign: 'center  '}}>
             <h2 className={styles.title}>CONTÁCTANOS</h2>
             <div style={{display: 'flex', flexDirection: 'row', justifyContent: 'space-evenly'}}>
-                <form 
-                    action="/envioDeEmail"
-                    method="POST"
-                    enctype="multipart/form-data" 
+                <form onSubmit={submitHandler}
+                    // action="/"
+                    // method="POST"
+                    // enctype="multipart/form-data" 
                     style={{
                         display: 'flex', 
                         flexDirection: 'column', 
                         alignItems: 'center'}}>
                     <div>
                         <label className={styles.letter}>Nombre:</label>
-                        <input onChange={onChangeHandler} name="nombre" className={styles.input} placeholder="Escribe un nombre..."></input>
+                        <input 
+                            onChange={onChangeHandler} 
+                            name="nombre" 
+                            className={styles.input} 
+                            placeholder="Escribe un nombre..."></input>
                     </div>
                     <p className={styles.errorsLetter}>{errors.nombre}</p>
                     <div>
                         <label className={styles.letter}>Correo:</label>
-                        <input onChange={onChangeHandler} name="correo" style={{marginLeft: '23px'}} className={styles.input} placeholder="Escribe un correo..."></input>
+                        <input 
+                            onChange={onChangeHandler} 
+                            name="correo" 
+                            style={{marginLeft: '23px'}} 
+                            className={styles.input} 
+                            placeholder="Escribe un correo..."></input>
                     </div>
                     <p className={styles.errorsLetter}>{errors.correo}</p>
                     <div>
