@@ -21,7 +21,7 @@ function App() {
         <Route path='/detalle/:id' element={<DetalleApt/>}></Route>
       </Routes> : 
       <div>
-        <header style={{position: 'sticky', top: '0', zIndex: '2'}}>
+        <header style={{position: 'sticky', top: '0', zIndex: '3'}}>
         <NavBar></NavBar>
       </header>     
       <main>

@@ -42,3 +42,131 @@
 .button:hover{
     background-color: #a61a16;
 }
+
+.divLinks{
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    padding-right: 50px;
+  }
+  
+  @media(max-width: 768px){
+    .divLinks {   
+      position: absolute;
+      top: -700px;
+      left: -2000px;
+      right: 0; 
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+      flex-direction: column;
+      transition: all 1s ease;
+    }
+  }
+  
+  @media(max-width: 768px){
+    .active {    
+      top: 100%;
+      left: 0;    
+    }
+  }
+  
+      @media (max-width: 1080px) {
+          .divLinks{
+              flex-wrap: wrap;
+              justify-content: space-evenly;  
+              padding-left: 50px;     
+          }
+      }
+  
+      @media (max-width: 768px) {
+          .divLinks{
+              flex-wrap: wrap;
+              justify-content: space-evenly;  
+              padding-left: 50px;     
+          }
+      }
+  
+/* navIcon5 */
+
+.navIcon5{
+    width: 45px;
+    height: 30px;
+    margin: 10px 50px 10px 10px;
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+  }
+  .navIcon5 span{
+    background-color: #3b3e40;
+    position: absolute;
+    border-radius: 2px;
+    transition: .3s cubic-bezier(.8, .5, .2, 1.4);
+    width:100%;
+    height: 4px;
+    transition-duration: 500ms
+  }
+  .navIcon5 span:nth-child(1){
+    top:0px;
+    left: 0px;
+  }
+  .navIcon5 span:nth-child(2){
+    top:13px;
+    left: 0px;
+    opacity:1;
+  }
+  .navIcon5 span:nth-child(3){
+    bottom:0px;
+    left: 0px;
+  }
+  .navIcon5:not(.open):hover span:nth-child(1){
+    transform: rotate(-3deg) scaleY(1.1);
+  }
+  .navIcon5:not(.open):hover span:nth-child(2){
+    transform: rotate(3deg) scaleY(1.1);
+  }
+  .navIcon5:not(.open):hover span:nth-child(3){
+    transform: rotate(-4deg) scaleY(1.1);
+  }
+  .open span:nth-child(1) {
+    transform: rotate(45deg);
+    top: 13px;
+  }
+  .open span:nth-child(2) {
+    opacity: 0;
+  }
+  .open span:nth-child(3) {
+    transform: rotate(-45deg);
+    top: 13px;
+  }
+  
+  @media (min-width: 768px) {
+    .navIcon5{
+        display: none;
+    }
+}
+  
+/* Pantalla Emergente */
+
+@media(max-width: 768px){
+
+  .divBig{
+      background-color: rgb(8, 28, 41, 0.9);
+      position: absolute;
+      top: -1000px;
+      left: -1000px;
+      width: 100%;
+      height: 800px;
+      z-index: -1;
+      transition: all .6s ease ;
+      
+    }
+  
+  .activeDiv{
+    border-radius: 0 0 50% 0;
+    top: 0px;
+    left: 0;  
+    z-index: 1.2;
+    transition: all .6s ease ;
+  }
+}

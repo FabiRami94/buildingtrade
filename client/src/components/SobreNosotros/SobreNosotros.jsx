@@ -41,7 +41,7 @@ const SobreNosotros = () => {
                         efectividad, con precios competitivos y óptimo servicio al cliente, brindando
                         acompañamiento profesional y cumpliendo todas las expectativas.</h4></span>
                 </div>
-                <div style={{display: "flex", flexDirection: 'row', justifyContent: 'center'}}>
+                <div className={styles.misVis}>
                     <div className={styles.flippableCardContainer}>
                        <div className={styles.frontCard}>
                             <img className={styles.image} src="https://i.ibb.co/SNRxc6b/mision.jpg" alt="misión"/>
