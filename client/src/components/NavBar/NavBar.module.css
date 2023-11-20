@@ -8,6 +8,13 @@
     cursor: pointer;
 }
 
+    @media(max-width: 768px){
+      .linksStyles{
+        color: #f2f2f2;
+        margin: 40px;
+      }
+    }
+
 .colores{
     color: #a61a16;
     color: #80858d;
@@ -151,19 +158,18 @@
 @media(max-width: 768px){
 
   .divBig{
-      background-color: rgb(8, 28, 41, 0.9);
+      background-color: rgb(28, 28, 28, 0.9);
       position: absolute;
       top: -1000px;
       left: -1000px;
       width: 100%;
-      height: 800px;
+      height: 700%;
       z-index: -1;
       transition: all .6s ease ;
       
     }
   
   .activeDiv{
-    border-radius: 0 0 50% 0;
     top: 0px;
     left: 0;  
     z-index: 1.2;

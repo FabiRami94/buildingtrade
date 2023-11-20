@@ -1,9 +1,26 @@
 
+.divGeneral{
+    margin: 30px;
+}
+
+    @media(max-width: 768px){
+        .divGeneral{
+            margin: 10px;
+        }
+    }
+
+.cards{ 
+    display: flex;
+    flex-direction: Row;
+    flex-wrap: wrap; 
+    justify-content: center;    
+}
+
 .servicio{
     display: flex; 
     flex-direction: column;
     text-align: center;
-    width: 250px;
+    width: 220px;
     margin: 20px;
     background-color: #80858d;
     background-color: #721f1c;
@@ -13,6 +30,13 @@
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.8);
 }
 
+    @media(max-width: 768px){
+        .servicio{
+            width: 160px;
+            margin: 10px;         
+        }
+    }
+
 .imagenesRemodelacion{
     width: 100px;
     margin: 2px;
@@ -20,22 +44,29 @@
     border: 1.5px solid #1d1d1b;
 }
 
+    @media(max-width: 768px){
+        .imagenesRemodelacion{
+            width: 80px; 
+            margin: 4px;        
+        }
+    }
+
 .imagenesAcabados{
-    width: 200px;
+    width: 98%;
     margin: 2px;
     border-radius: 20px;
     border: 1.5px solid #1d1d1b; 
 }
 
 .imagenConstruccion{
-    width: 200px;
+    width: 98%;
     margin: 2px;
     border-radius: 20px;
     border: 1.5px solid #1d1d1b;
 }
 
 .imagenCarpinteria{
-    width: 200px;
+    width: 97%;
     margin: 2px;
     border-radius: 20px;
     border: 1.5px solid #1d1d1b;

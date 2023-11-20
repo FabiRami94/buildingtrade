@@ -4,11 +4,11 @@ import styles from "./Servicios.module.css";
 
 const Servicios = () => {
     return(
-        <div style={{margin: '30px'}}>
+        <div className={styles.divGeneral}>
             <h2 style={{display: 'flex', justifyContent: 'center'}}>
                <span style={{color: '#3b3e40', marginTop: '20px'}}>NUESTROS</span>&nbsp;
                <span style={{color: '#a61a16', marginTop: '45px'}}>SERVICIOS</span></h2>
-            <div style={{display: 'flex', flexDirection: 'row', justifyContent: 'space-between'}}>
+            <div className={styles.cards}>
                 <div className={styles.servicio}>
                     <div style={{display: 'flex', flexDirection: 'row', justifyContent: 'center'}}>
                         <div style={{display: 'flex', flexDirection: 'column'}}>

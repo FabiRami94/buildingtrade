@@ -71,9 +71,9 @@ const Contact = () => {
 
 
     return(
-        <div style={{backgroundColor: '#1d1d1b', height: '410px', textAlign: 'center  '}}>
+        <div className={styles.divGeneral}>
             <h2 className={styles.title}>CONTÁCTANOS</h2>
-            <div style={{display: 'flex', flexDirection: 'row', justifyContent: 'space-evenly'}}>
+            <div className={styles.divSecundario}>
                 <form onSubmit={submitHandler}
                     // action="/"
                     // method="POST"

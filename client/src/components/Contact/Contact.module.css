@@ -1,4 +1,28 @@
 
+.divGeneral{
+    background-color: #1d1d1b; 
+    height: 410px; 
+    text-align: center;
+}
+
+    @media(max-width: 768px){
+        .divGeneral{
+            height: 630px; 
+        }
+    }
+
+.divSecundario{
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-evenly;
+}
+
+    @media(max-width: 768px){
+        .divSecundario{
+            flex-direction: column;
+        }
+    }
+
 .title{
     color: #f2f2f2;
     padding-top: 20px;
@@ -45,6 +69,12 @@ input:focus {
     border-radius: 10px;
 }
 
+    @media(max-width: 768px){
+        .sendButton{
+            margin-bottom: 30px;
+        }
+    }
+
 .sendButton:not(:disabled):hover{
     background-color: #a61a16;
 }
@@ -55,3 +85,4 @@ input:focus {
     color: #f2f2f2;
     text-align: right;
 }
+
