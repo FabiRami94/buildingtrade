@@ -11,6 +11,23 @@
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.8);
 }
 
+    @media(min-width: 768px){
+        .divPrincipal:hover{
+            margin-top: 4px;
+        }
+    }
+
+    @media(max-width: 768px){
+        .divPrincipal:hover{
+            margin-right: 4px;
+        }
+    }
+
+
+.divPrincipal:hover h3 {
+    color: #80858d;
+}
+
 .imageApto{
     height: 200px;
     border-radius: 10px 10px 0px 0px;

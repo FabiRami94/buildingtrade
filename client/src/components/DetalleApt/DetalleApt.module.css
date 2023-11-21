@@ -1,0 +1,51 @@
+
+.button{
+    background-color: #3b3e40;
+    color: #f2f2f2;
+    
+    margin: 30px;
+    height: 1.8rem;
+    font-size: large;
+    font-weight: 500;
+    border-radius: 10px;
+}
+
+.button:hover{
+    background-color: #a61a16;
+}
+
+.aptoInfo{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.aptoInfo h1,
+.aptoInfo h2,
+.aptoInfo h3,
+.aptoInfo span {
+    margin-left: 20px;
+}
+
+.contactoDiv{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    justify-content: center;
+}
+
+.openBar{
+    background-color: #a61a16;
+    border-radius: 0.5rem;
+    height: 2rem;
+    width: 80%;
+    margin: 10px 0px 0px 20px;
+    cursor: pointer;
+    text-align: center;
+    align-items: center;
+}
+
+.description{
+    text-align: center;
+    margin-left: 20px;
+}
